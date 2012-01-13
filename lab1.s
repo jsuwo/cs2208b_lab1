@@ -1,5 +1,4 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
 ! Computer Science 2208a/b
 ! Lab 1
 !
@@ -9,7 +8,6 @@
 ! program are not examples of good assembly comments.  They are simply here to
 ! help you understand what this program is doing.  We will go over good
 ! commenting later in the course.
-!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
         EOL = 10                        ! End of line character (ASCII value 10)
@@ -26,4 +24,4 @@ main:   save    %sp, -96, %sp           ! Magic line -- we'll discuss this later
         nop                             ! print the value in register %o0 
 
         ret                             ! Exit..
-        restore
+        restore                         !
